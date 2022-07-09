@@ -19,4 +19,4 @@ while True:
 			print("NOT BEING ATTACKED!!!")
 		else:
 			print("Has been attacked!!!")
-			os.system(f"iptables -I INPUT -s {ip} -j DROP")
+			os.system(f"iptables -A INPUT -s {ip} -j DROP")
