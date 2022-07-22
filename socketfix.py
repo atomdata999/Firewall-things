@@ -15,7 +15,7 @@ while True:
 	for ip in ips:
 		if ip == "":
 			print("NOT BEING ATTACKED!!!")
-		elif ip == "your ip":
+		elif ip == "144.217.147.253":
 			print("NOT BEING ATTACKED!!!")
 		else:
 			print("Has been attacked!!!")
